@@ -18,14 +18,19 @@ public class RunnerTerrain {
 		map.initialiseGrid();
 		
 		//visualising and checking for myself
+		System.out.println("Let's check the map for clues...");
+		System.out.println();
 		map.printGrid();
 		
 		
 		MagicCompass magicCompass = new MagicCompass();
 		magicCompass.direction();
 		
+		System.out.println();
+		System.out.println("Let's go find this treasure...");
+		// map.findTreasure();
 		
-		
+		map.inputDirection();
 		
 		
 	}
